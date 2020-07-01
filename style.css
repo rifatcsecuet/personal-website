@@ -1,68 +1,14 @@
-body{
+body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-h1{
-    color: crimson;
-    
-}
-
-h2{
-    color: crimson;
-    
-}
-
-h3{
-    color: orange;
-}
-
-p{
-    text-align: justify;
-    color:black;
-}
-
-
-
-.name-highlight
-{
-    color:orange
-}
-
-.half-width{
-    height: 400px;
-    width: 38%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 4%;
-
-}
-
-.one-third-width{
-    height: 500px;
-    width: 27%;
-    float: left;
-    margin-left: 3%;
-    padding-left: 2%;
-
-}
-
-.half-width img{
-    width: 80%;
-    height: 60%;
-
-}
-
-.top-banner{
-    background-image: url("images/top-banner.png");
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .welcome {
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-}
+  }
 
-section{
-    height: 500px;
-}
-
-.link-button{
+  .link-button{
     text-decoration: none;
     background-image: linear-gradient(crimson, tomato);
     padding: 10px 20px;
@@ -70,74 +16,143 @@ section{
     color:white;
     font-weight: 700;
 }
+  .welcome,
+  .biography,
+  .latest-work {
+    height: 600px;
+  }
+  .half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+  }
+  .half-width img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  h1.name {
+    color: crimson;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  h1 span {
+    color: rgb(104, 104, 104);
+  }
+  
+  .text {
+    color: gray;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .btn {
+    color: #ffffff;
+    background-color: hotpink;
+    border: none;
+    padding: 12px 40px;
+    font-size: 20px;
+  }
+  .biography { 
 
-.dream-area{
-    background-image: url("images/dream-bg.png");
+    height: 500px;
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
-}
+    background-position: left;
+    background-size: cover;
+    background-position: center;
 
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-}
-
-.academic-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-
-}
-
-
-img.imgcenter{
-  height: 150px;  
-  width: 150px;
-  border: 3px solid lightblue;
-  padding: 10px;
-  text-align: center;
-}
-
-.border-shadow{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;    
-    background-color: white;
-}
-
-#bsec{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,crimson, tomato);
-   border-image-slice: 1;
-}
-
-#dbbl{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,lightblue, tomato);
-   border-image-slice: 1;
-}
-
-#buet{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,red, orange, yellow, green, blue);
-   border-image-slice: 1;
-}
-
-#iba{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, red , yellow);
-   border-image-slice: 1;
-}
-
-#cuet{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, orange, crimson);
-   border-image-slice: 1;
-}
-
-
-
-footer p{  
     
+    width:100%;
+  }
+  .bio {
+    padding-top: 100px;
+  }
+  .one-third {
+    width: 30%;
+    margin-left: 2%;
+    padding-left: 5px;
+    float: left;
+  }
+  .one-third img {
+    width: 100%;
+  }
+  .latest-work {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 100px 0px;
+    height: 400px;
+  }
+  .latest-work h1 {
     text-align: center;
-    font-size: 14px;
- }
+  }
+  .clients {
+    height: 600px;
+  }
+  .clients h1 {
+    text-align: center;
+  }
+  
+  .client {
+    width: 40%;
+    height: 300px;
+    box-shadow: 5px 7px 20px grey;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-image {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+  }
+
+  
+  .contact h1 {
+    text-align: center;
+  }
+  input[type="text"] {
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    margin: 5px 0px;
+    border: none;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  .clear-fix {
+    clear: both;
+  }
+  .message {
+    background-color: hotpink;
+    border-radius: 10px;
+    padding: 50px;
+    color: #ffffff;
+    margin: 50px auto;
+    width: 30%;
+
+  }
+  .message h1 {
+    font-size: 25px;
+  }
+  .btn-send {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    padding: 0px 20px;
+  }
+
+  .half-width img{
+    width: 80%;
+    height: 60%;
+
+}
