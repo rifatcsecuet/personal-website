@@ -63,8 +63,7 @@ body {
     background-position: left;
     background-size: cover;
     background-position: center;
-
-    
+      
     width:100%;
   }
   .bio {
@@ -109,7 +108,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  .footer-image {
+  .contact {
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
   }
